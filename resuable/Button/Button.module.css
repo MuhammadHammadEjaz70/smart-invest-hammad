@@ -1,0 +1,109 @@
+/* Button.module.css */
+.button {
+    border: 1px solid #ECAC1A;
+    padding: 15px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #ECAC1A;
+}
+
+.button-border {
+    border: 1px solid #F5C635;
+    color: #F5C635;
+    padding: 15px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    background: #333333;
+}
+
+.button-border:hover{
+    background-color: #ECAC1A;
+    color: #fff;
+}
+
+.button-background {
+    border: 1px solid #ECAC1A;
+    padding: 15px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #ECAC1A;
+}
+
+.button-background:hover{
+    background-color: #b38009;
+}
+
+.notification-btn{
+    border: 1px solid #ECAC1A;
+    background-color: #ECAC1A1A;
+    color: #fff;
+    opacity: 10;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button-none {
+    color: orange;
+}
+
+.view-all-btn{
+    background: #4EE39D;
+    border-radius: 27px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 12px;
+    padding: 8px 30px;
+    border: none;
+}
+
+.signUp-btn{
+    width: 100%;
+    background: linear-gradient(180deg, #ECAC1A 0%, #F5C635 100%);
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.signUp-btn:hover{
+    background: linear-gradient(180deg, #F5C635 0%, #ECAC1A 100%);
+}
+
+.back-to-login-btn{
+    background: transparent;
+    color: #ECAC1A;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ECAC1A;
+    border-radius: 12px;
+}
+    
+.upload-screenshot-btn{
+    border: 1px solid #3E3E3E;
+    color: #C0C0C0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 400px) {
+    .button-border{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}

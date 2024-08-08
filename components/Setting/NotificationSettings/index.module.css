@@ -1,0 +1,18 @@
+.notificationDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background: #151515;
+    border-radius: 16px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+    .notificationDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

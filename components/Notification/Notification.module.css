@@ -1,0 +1,32 @@
+.notificationDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background: #151515;
+    border-radius: 16px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.notificationIcon {
+    width: 50px;
+    height: 50px;
+    background: #2c2c2c;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    .notificationDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .notificationIcon {
+        margin-bottom: 15px;
+    }
+}

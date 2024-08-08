@@ -1,0 +1,10 @@
+
+.background {
+	padding: 0 !important;
+	background-color: #1a1a1a;
+	height: 100vh;
+	background-image: url("../../public/img/bg-login-1.svg"); /* Adjust the path accordingly */
+	background-size: 74% auto; /* Adjust this property */
+	background-position: right;
+	background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+}

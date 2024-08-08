@@ -1,0 +1,120 @@
+.mainHeading {
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.gradientText {
+    background-image: linear-gradient(to right, #ECAC1A 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.backgroundImage {
+    background-image: url('../../../public/img/background-gradient-header.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* Adjusted to viewport height to cover the section */
+    display: flex;
+    /* Added to ensure proper alignment of child elements */
+    padding-top: 40px;
+}
+
+@media (max-width: 1200px) {
+    .backgroundImage {
+        height: auto;
+        /* Adjust height for small screens if necessary */
+    }
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.listText {
+    font-size: 16px;
+    font-weight: 400;
+    list-style-type: none;
+    line-height: 2.5rem;
+    display: flex;
+}
+
+.btns {
+    border: 1px solid #ECAC1A;
+    color: #ECAC1A;
+    padding: 14px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    background: #333333;
+}
+
+.btns:hover {
+    background-color: #ECAC1A;
+    color: #fff;
+}
+
+.imageCentered {
+    text-align: -webkit-center;
+}
+
+.btns2 {
+    border: 1px solid #b38009;
+    color: #ECAC1A;
+    padding: 14px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #ECAC1A;
+    margin-left: 15px;
+}
+
+.btns2:hover {
+    background-color: #b38009;
+}
+
+@media screen and (max-width: 1000px) {
+    .imageCentered {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tickText {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textCentered {
+        text-align: center;
+    }
+
+    .mainHeading {
+        font-size: 32px;
+    }
+
+    .mainImage {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .tick {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btns {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}

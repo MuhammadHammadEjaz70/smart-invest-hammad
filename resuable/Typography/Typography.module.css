@@ -1,0 +1,93 @@
+.text14 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.text14notification {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+
+.text16 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.text18Light {
+  font-size: 18px;
+  font-weight: 500;
+  color: #C0C0C0 !important;
+}
+
+.text14Link {
+  color: #ecac1a;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgotLink {
+  color: #666666;
+  cursor: pointer;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.text26 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.text28light {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.text20light {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: #666666;
+  padding: 1px;
+}
+
+.text20danger{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: red !important;
+  padding: 1px;
+} 
+
+.text20Profile {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.text20label {
+  color: #1a1a1a !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+.headingM {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.headingS {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.tableH {
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+}

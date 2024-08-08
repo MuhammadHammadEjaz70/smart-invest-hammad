@@ -1,0 +1,56 @@
+.theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 73px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border: 1px solid #ECAC1A;
+  border-radius: 20px;
+  background-color: transparent; /* Make button background transparent */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sun {
+  background-color: #333333; /* Sun icon background color */
+  color: #fff;
+}
+
+.moon {
+  background: linear-gradient(180deg, #F5C635 0%, #ECAC1A 100%);
+  color: #fff;
+}
+
+body.light .theme .icon {
+  background-color: #ffffff; /* Background color for both icons in light theme */
+}
+
+body.dark .theme .icon {
+  background-color: #000000; /* Background color for both icons in dark theme */
+}
+
+body.light .sun {
+  background-color: #ffd700; /* Ensure sun icon background in light theme */
+}
+
+body.light .moon {
+  background-color: #333333; /* Ensure moon icon background in light theme */
+}
+
+body.dark .sun {
+  background: linear-gradient(180deg, #F5C635 0%, #ECAC1A 100%);
+}
+
+body.dark .moon {
+  background-color: #333333; /* Ensure moon icon background in dark theme */
+}

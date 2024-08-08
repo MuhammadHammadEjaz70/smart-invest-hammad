@@ -1,0 +1,93 @@
+.pageHeight {
+  height: 100vh;
+
+  background-color: white;
+}
+
+.background {
+  background-color: #1a1a1a;
+  height: 100vh;
+  background-image: url("../../public/img/bg-login-1.svg"); /* Adjust the path accordingly */
+  background-size: 74% auto; /* Adjust this property */
+  background-position: right;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: #666666;
+}
+
+.headerText {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.formContainer {
+  max-width: 61%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.signUpBtn {
+  width: 100%;
+  background: linear-gradient(180deg, #ecac1a 0%, #f5c635 100%);
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.signUpBtn:hover {
+  background: linear-gradient(180deg, #f5c635 0%, #ecac1a 100%);
+}
+
+.labelText {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.inputFields {
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.inputFields::placeholder {
+  color: #666666;
+  font-weight: 500;
+  font-size: 18px;
+}
+.LoginBtn {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ecac1a;
+  color: #ecac1a;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    display: none;
+  }
+  .inputContainer {
+    width: 100%;
+  }
+}

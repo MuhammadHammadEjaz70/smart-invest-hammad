@@ -1,0 +1,40 @@
+.header {
+  background: #000000;
+}
+
+.navbar-toggle-white {
+  border-color: white;
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.dropdownBtn {
+  border: 1px solid #ECAC1A;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+@media screen {
+  .navbarItems {
+    flex-direction: row;
+  }
+}

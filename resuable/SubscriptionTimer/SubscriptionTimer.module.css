@@ -1,0 +1,47 @@
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #4EE39D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: 500;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+
+.whiteIcon{
+    filter: brightness(0) invert(1);
+}
+
+.content {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #F5C635;
+}
+
+.subsEndText{
+    font-size: 14px;
+    font-weight: 500;
+    color: #C0C0C0;
+}

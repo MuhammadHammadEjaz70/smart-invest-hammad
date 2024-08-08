@@ -1,0 +1,154 @@
+.navbar {
+  margin: 9px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #151515;
+  height: 70px;
+  border-bottom: 1px solid #2E2E2E
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+
+img.profile_pic {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border: 1px solid #707070 !important;
+  border-radius: 50% !important;
+}
+
+.navbar div div:has(.sub_menu):hover,
+.navbar a:hover,
+.navbar div div:has(.sub_menu).active,
+.navbar a.active {
+  color: #ff7700;
+}
+
+.dropDown_page:hover {
+  background-color: #787878 !important;
+}
+
+.navbar > div {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  /*font-family: "roboto";*/
+  font-weight: 400;
+}
+
+.navbar .sub_menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  right: 0;
+}
+
+.searchdiv{
+  height: 46px;
+  width:46px;
+  background: #1A1A1A;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+}
+
+.profileName{
+  font-size:14px;
+  font-weight:500;
+  color:#fff;
+}
+
+.profileDiv{
+  display: flex;
+  align-items: center;
+  background: #1a1a1a;
+  border-radius: 24px;
+  cursor:pointer;
+  justify-content: space-between;
+}
+
+.navbar .sub_menu a {
+  color: #8e8a8a;
+}
+
+.navbar .sub_menu a.active,
+.navbar .sub_menu a:hover {
+  color: var(--site-clr);
+}
+
+.navbar > div > div.show .sub_menu {
+  display: flex;
+}
+
+.profileShow {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .navbar h1 {
+    display: none;
+    width: 0%;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .searchBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .logo{
+    display: none;
+  }
+  .searchdiv{
+    display: none;
+  }
+  .profileName{
+    display: none;
+  }
+  .profileDiv{
+    padding: 0;
+  }
+  .leftNavItems{
+    display: none;
+  }
+}
+
+@media screen and (max-width:560px){
+  .Notify{
+   width: 300px !important; 
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+
+  .profileHide {
+    display: none;
+  }
+  .profileShow {
+    display: block;
+  }
+}

@@ -1,0 +1,94 @@
+.btns{
+    border: none;
+    color: #ECAC1A;
+    padding: 10px 19px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    background: #30291b;
+}
+
+.mt5{
+    margin-top: 5%;
+}
+
+.fonts{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.box{
+    background: #333333;
+    border: none;
+    border-radius: 22px;
+    padding: 15px;
+}
+
+.investImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(169.7deg, #ECAC1A 7.69%, #FFE864 47.72%, #F5C635 97.84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .accordionItem {
+    border-radius: 20px;
+    border: 1px solid #ECAC1A;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: background-color 0.3s, border 0.3s;
+    padding: 20px;
+}
+
+.accordionItemOpen {
+    background: #333333;
+    border: none;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordionTitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.accordionIcon {
+    font-size: 15px;
+    color: #fff;
+}
+
+.accordionContent {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
+.colImg{
+    border: 1px solid #FFFFFF26;
+    background: linear-gradient(180deg, rgba(236, 172, 26, 0.1) 0%, rgba(255, 232, 100, 0.1) 100%);
+    border-radius: 22px;
+    margin-top: 20px;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+}

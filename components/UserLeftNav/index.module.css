@@ -1,0 +1,153 @@
+.navbar {
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 7px;
+  height: 86vh;
+  background-color: #151515;
+  overflow: auto;
+  width: 290px;
+  border: 1px solid #2E2E2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar .items a {
+  padding: 5px 7px;
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  margin: 10px;
+}
+
+.logoutBtn{
+  width: 40px;
+  height: 40px;
+  background-color: #ECAC1A;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
+
+.powerText{
+  cursor:pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.collapsibleOption{
+  font-size: 16px;
+  font-weight: 500;
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+.depositIcon{
+  margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    width: 60px;
+    margin-left: 10px;
+  }
+
+  .powerText{
+    display: none;
+  }
+
+  .hidesScroll {
+    overflow: visible !important;
+  }
+
+  .fixLogoutSize {
+    height: 38px !important;
+    width: 38px !important;
+  }
+
+  .setIconShape {
+    height: 18px !important;
+    width: 12px !important;
+  }
+
+  .depositIcon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .hideText {
+    display: none !important;
+  }
+
+  .navbar .items a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 0
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .navbar .items a span {
+    position: absolute;
+    left: 0;
+    transform: translateY(15px);
+    width: fit-content;
+    height: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important;
+    white-space: nowrap;
+    z-index: 2;
+    background-color: var(--site-clr);
+    color: var(--fg);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 10px 30px black;
+    transition: 0.3s;
+  }
+
+  .navbar .items a:hover span {
+    display: flex;
+  }
+
+  .navbar .balance .icon {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .navbar .balance div {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--bg);
+    width: 200px;
+    transform: translateX(55px);
+    border-color: var(--site-clr);
+  }
+
+  .navbar .balance.show div {
+    display: flex;
+  }
+}

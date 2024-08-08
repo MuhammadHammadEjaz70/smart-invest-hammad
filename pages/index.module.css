@@ -1,0 +1,27 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9 !important;
+    color: var(--fg);
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif !important;
+  }
+  
+  .body.light {
+    background-color: #998b8b;
+    color: black;
+  }
+  
+  .body.dark {
+    background-color: #1A1A1A;
+    color: white;
+  }
+
+  .content{
+    background: #1a1a1a; 
+  }
+
+  .bodyContent{
+    height: 100vh;
+    overflow: auto;
+  }

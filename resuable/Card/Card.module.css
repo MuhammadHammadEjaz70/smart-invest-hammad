@@ -1,0 +1,46 @@
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid;
+  }
+  
+  .icon {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem;
+  }
+  
+  .heading {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    color: #FFFFFF;
+  }
+  
+  .value {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+  
+.border-orange{
+    border: 1px solid #F5C635;
+}
+
+  .border-blue {
+    border: 1px solid #4EE39D;
+  }
+  
+  .border-green {
+    border: 1px solid #557EFF;
+  }
+  
+  .border-yellow {
+    border: 1px solid #C274FF;
+  }

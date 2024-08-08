@@ -1,0 +1,15 @@
+.signUpBtn {
+  width: 100%;
+  background: linear-gradient(180deg, #ecac1a 0%, #f5c635 100%);
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.signUpBtn:hover {
+  background: linear-gradient(180deg, #f5c635 0%, #ecac1a 100%);
+}

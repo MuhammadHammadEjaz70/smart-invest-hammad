@@ -1,0 +1,42 @@
+.borderTop {
+    border-top: 1px solid #F5C635;
+    border-bottom: 1px solid #F5C635;
+}
+
+.directionChange{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center; 
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+
+.sectionText {
+    background-image: linear-gradient(180deg, #F5C635 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.assetsText {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.heightFix{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+    .directionChange{
+        display: flex;
+        flex-direction: column;
+    }
+    .heightFix{
+        margin-top: 40px;
+    }
+}

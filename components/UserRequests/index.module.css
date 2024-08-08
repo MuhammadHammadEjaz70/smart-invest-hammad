@@ -1,0 +1,9 @@
+.searchField {
+    padding: 0 20px 0 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .searchField {
+        padding: 0;
+    }
+}

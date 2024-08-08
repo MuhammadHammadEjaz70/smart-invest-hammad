@@ -1,0 +1,41 @@
+/* components/CustomTabs.module.css */
+.customTabs {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .tabContainer {
+    display: flex;
+    border-bottom: 1px solid #2E2E2E
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #C0C0C0;
+  }
+
+  .notificationIcon{
+    filter:brightness(0) invert(1);
+  }
+
+  .active .notificationIcon{
+    filter:brightness(1) invert(0);
+  }
+  
+  .active {
+    color: #ECAC1A;
+    border-bottom: 1px solid #ECAC1A ;
+  }
+  
+  .tabContent {
+    padding-top: 20px;
+  }
+
+  @media screen and (max-width: 430px) {
+    .tabContainer{
+      flex-direction: column;
+    }
+  }
+  

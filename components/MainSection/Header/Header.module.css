@@ -1,0 +1,32 @@
+.text{
+    font-weight: 600;
+    color: #fff;
+}
+
+.btns{
+    border: 1px solid #ECAC1A;
+    color: #ECAC1A;
+    padding: 10px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    background: #333333;
+}
+
+.btns:hover{
+    background-color: #ECAC1A;
+    color: #fff;
+}
+
+.btns2{
+    border: 1px solid #ECAC1A;
+    color: #ECAC1A;
+    padding: 10px 36px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #ECAC1A;
+}
+
+.btns2:hover{
+    background-color: #b38009;
+}

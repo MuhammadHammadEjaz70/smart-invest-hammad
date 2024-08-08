@@ -1,0 +1,23 @@
+.graphDesign {
+    position: relative;
+    width: 222px;
+    height: 222px;
+    border: 2px solid #2BDED5;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.dropdownValues{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .dropdownValues{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+}

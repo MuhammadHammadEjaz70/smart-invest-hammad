@@ -1,0 +1,14 @@
+.imageCircle{
+    width: 94px;
+    height: 94px;
+    border: 1px solid #C6CAFF;
+    border-radius: 100px;
+    position: relative;
+}
+
+.showImage{
+    height: 92px;
+    width: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}

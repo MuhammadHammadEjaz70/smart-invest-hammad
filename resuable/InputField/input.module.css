@@ -1,0 +1,116 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.labelText {
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.additionalInput{
+  border: 1px solid;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  height: 64px;
+  width: 85%;
+  margin-right: 10px;
+  padding-right: 0rem;
+}
+
+.InputButttons{
+  display: flex;
+}
+
+.additionalInput::placeholder{
+  color: #C0C0C0;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.inputFields {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100% !important;
+  height: 64px;
+  padding-right: 0rem; /* Make space for the eye icon */
+}
+
+.inputFields::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Light theme styles */
+.lightLabelText {
+  color: #1a1a1a !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+.lightInputFields {
+  border-color: #dddddd;
+  color: #666666;
+  background-color: #f9f9f9;
+}
+
+.lightInputFields::placeholder {
+  color: #666666;
+}
+
+/* Dark theme styles */
+.darkLabelText {
+  color: #ffffff;
+}
+
+.darkInputFields {
+  border-color: #2e2e2e;
+  color: #ffffff;
+  background-color: #151515;
+}
+
+.darkInputFields::placeholder {
+  color: #c0c0c0;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1160px) {
+  .InputButttons{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .inputOrButton{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .additionalInput{
+    width: 100% !important;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+}
+
